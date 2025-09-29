@@ -1,0 +1,266 @@
+/* Root container style */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Bingkai putih utama (container besar) */
+.landing {
+  max-width: 1400px;
+  width: 92vw;
+  min-height: 88vh;
+  margin: 32px auto;
+  background: #0c110b; /* hijau tua background */
+  border-radius: 32px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+/* Wallet bar di pojok kanan atas area hijau */
+.wallet-bar {
+  position: absolute;
+  top: 24px;
+  right: 48px;
+  z-index: 99;
+  background: rgba(146, 22, 22, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wallet-bar-content {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  padding: 8px 16px;
+  background: #fdfdfd;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+}
+.network-label {
+  font-weight: bold;
+  color: #009f3d;
+}
+.ztc-label {
+  font-weight: bold;
+  color: #222;
+}
+
+/* Responsive untuk mobile */
+@media (max-width: 900px) {
+  .wallet-bar {
+    right: 16px;
+    top: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .landing {
+    max-width: 100vw;
+    width: 100vw;
+    min-height: 100vh;
+    border-radius: 0;
+    padding: 12px 6px;
+  }
+  #root {
+    padding: 0.5rem;
+  }
+  .wallet-bar {
+    position: static;
+    margin: 12px;
+    justify-content: center;
+  }
+}
+
+/* Logo Styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animasi logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card and Docs */
+.card {
+  padding: 2em;
+}
+.read-the-docs {
+  color: #888;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main-blue {
+  color: #61dafb;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.main-black {
+  color: #222;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.desc {
+  color: #555;
+  margin-bottom: 16px;
+}
+.cta-btn {
+  background: #61dafb;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(97,218,251,0.15);
+}
+
+/* Blockchain Logos */
+.blockchain-logos {
+  text-align: center;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.bc-logo {
+  height: 32px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+.plus50 {
+  color: #61dafb;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+/* NFT Showcase & Popular */
+.showcase, .popular-collections {
+  margin-top: 32px;
+}
+
+/* NFT grid: 3 kolom, 2 baris */
+.nft-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+  margin-top: 24px;
+}
+
+.nft-card {
+  border: 1px solid #00ff44;
+  border-radius: 18px;
+  padding: 32px 24px 32px 24px; /* padding bawah lebih kecil */
+  background: #0af71d;
+  box-shadow: 0 2px 12px rgba(97, 239, 36, 0.07);
+  text-align: center;
+  transition: box-shadow 0.2s;
+  width: 100%;
+  min-width: 220px;
+  max-width: 350px;
+  min-height: 300px; /* tinggi minimum lebih pendek */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nft-card:hover, .popular-card:hover {
+  box-shadow: 0 4px 20px rgba(97,218,251,0.14);
+  border-color: #61dafb;
+}
+
+.nft-img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  box-shadow: 0 1px 8px rgba(97,218,251,0.11);
+}
+.nft-info {
+  margin-top: 12px;
+}
+.nft-name {
+  font-weight: bold;
+  color: #61dafb;
+  margin-bottom: 12px;
+  font-size: 1.15rem;
+}
+.nft-details {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.mint-btn, .burn-btn {
+  background: #21c36a;
+  color: #69ff8f;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.15rem;
+  margin-top: 16px;
+  box-shadow: 0 1px 8px rgba(97,218,251,0.10);
+}
+
+.collection-preview h2,
+.popular-collections h2 {
+  color: #61dafb;
+  margin-bottom: 14px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Responsive NFT grid */
+@media (max-width: 900px) {
+  .nft-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .nft-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nft-card, .popular-card {
+    max-width: 95vw;
+    min-width: 240px;
+    min-height: 260px;
+    padding: 16px;
+  }
+}
