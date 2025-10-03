@@ -1,0 +1,8 @@
+{
+  "name": "Zenchain Spaceship",
+  "description": "NFT koleksi Zenchain Spaceship",
+  "image": "ipfs://QmIsiCIDGambar/zenchainspaceship-nft.png",
+  "attributes": [
+    { "trait_type": "Type", "value": "Spaceship" }
+  ]
+}

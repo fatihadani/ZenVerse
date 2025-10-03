@@ -1,0 +1,2 @@
+await ZenchainNFT.balanceOf("0xDB264536d17AC6DCa21F9C3E7D19223Cf5d81EF8");
+const ZenchainNFT = await ethers.getContractAt("ZenchainNFT", "0x5FbDB2315678afecb367f032d93F642f64180aa3");

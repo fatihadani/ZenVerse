@@ -1,0 +1,9 @@
+{
+  "name": "Zenchain Cat",
+  "description": "NFT koleksi Zenchain Cat",
+  "image": "ipfs://QmIsiCIDGambar/zenchaincat-nft.png",
+  "attributes": [
+    { "trait_type": "Type", "value": "Cat" }
+  ]
+}
+

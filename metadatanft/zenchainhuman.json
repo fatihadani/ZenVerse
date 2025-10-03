@@ -1,0 +1,8 @@
+{
+  "name": "Zenchain Human",
+  "description": "NFT koleksi Zenchain Human",
+  "image": "ipfs://QmIsiCIDGambar/zenchainhuman-nft.png",
+  "attributes": [
+    { "trait_type": "Type", "value": "Human" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Zenchain Rocket",
+  "description": "NFT koleksi Zenchain Rocket",
+  "image": "ipfs://QmIsiCIDGambar/zenrocket-nft.jpeg",
+  "attributes": [
+    { "trait_type": "Type", "value": "Rocket" }
+  ]
+}

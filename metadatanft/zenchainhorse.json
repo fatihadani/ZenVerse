@@ -1,0 +1,8 @@
+{
+  "name": "Zenchain Horse",
+  "description": "NFT koleksi Zenchain Horse",
+  "image": "ipfs://QmIsiCIDGambar/zenhorse-nft.jpeg",
+  "attributes": [
+    { "trait_type": "Type", "value": "Horse" }
+  ]
+}
