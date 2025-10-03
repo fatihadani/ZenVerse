@@ -1,5 +1,6 @@
 {
   "name": "zenverse",
+<<<<<<< HEAD
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,10 +18,26 @@
     "@walletconnect/web3-provider": "^1.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+=======
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.2.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+>>>>>>> 3ad002aeab9b6a77bbcba23287ad00d43de47d8a
     "viem": "^2.37.9",
     "wagmi": "^2.17.5"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@vitejs/plugin-react": "^4.0.0",
     "ethers": "^5.8.0",
@@ -28,3 +45,17 @@
     "vite": "^4.0.0"
   }
 }
+=======
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
+}
+
+>>>>>>> 3ad002aeab9b6a77bbcba23287ad00d43de47d8a
