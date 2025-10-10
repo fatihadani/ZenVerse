@@ -1,8 +1,6 @@
 {
-  "name": "Zenchain Dog",
-  "description": "NFT koleksi Zenchain Dog",
-  "image": "ipfs://QmIsiCIDGambar/zenchaindog-nft.png",
-  "attributes": [
-    { "trait_type": "Type", "value": "Dog" }
-  ]
+  "name": "Zendog",
+  "description": "NFT Zendog koleksi eksklusif.",
+  "image": "ipfs://bafybeifji4rtt45yhwym7uxhrxvhaovey72mzgrjwazprgqwjwftwi7ame"
+
 }
