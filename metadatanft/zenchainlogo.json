@@ -1,8 +1,5 @@
 {
-  "name": "Zenchain Spaceship",
-  "description": "NFT koleksi Zenchain Spaceship",
-  "image": "ipfs://QmIsiCIDGambar/zenchainlogo-nft.png",
-  "attributes": [
-    { "trait_type": "Type", "value": "Spaceship" }
-  ]
+  "name": "Zenchain Logo",
+  "description": "Logo Zenchain untuk branding.",
+  "image": "ipfs://bafkreig64br5kcj723en6lkekl2ovixe5u4h6lqqt5jkqalftvou6mfx7y"
 }
