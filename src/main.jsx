@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
-        <RainbowKitProvider chains={[zenchainTestnet, mainnet, sepolia]}>
+        <RainbowKitProvider chains={[zenchainTestnet]}>
           <App />
         </RainbowKitProvider>
       </QueryClientProvider>
